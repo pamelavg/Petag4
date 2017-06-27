@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maccesarr.proyectomascotas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".vista.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <activity
+            android:name=".vista.Top5Mascotas"
+            android:label=""
+            android:parentActivityName=".vista.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Soporte para versiones anteriores o menores -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".vista.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vista.ContactoActivity"
+            android:label="@string/title_activity_contacto"
+            android:parentActivityName=".vista.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".vista.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vista.BioActivity"
+            android:label="BioActivity"
+            android:parentActivityName=".vista.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".vista.MainActivity" />
+        </activity>
+        <activity android:name=".vista.SeleccionarUsuario" />
+        <activity
+            android:name=".vista.RetornarID"
+            android:label="@string/title_activity_retornar_id"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

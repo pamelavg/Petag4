@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "806074622312",
+    "firebase_url": "https://petragramapp.firebaseio.com",
+    "project_id": "petragramapp",
+    "storage_bucket": "petragramapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806074622312:android:84ce194a5fcc741e",
+        "android_client_info": {
+          "package_name": "com.example.maccesarr.proyectomascotas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806074622312-n8v4ahrc9hhur400m04op1rv7d6isokj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maccesarr.proyectomascotas",
+            "certificate_hash": "ED11F321701E8281F11701DE6B4C3B91643533FE"
+          }
+        },
+        {
+          "client_id": "806074622312-pndt8bkk2c15fn5iait5s1elhgqoh525.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIvIvlrKBYbTcbr3tk63wRvj_qUfX5agA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806074622312-pndt8bkk2c15fn5iait5s1elhgqoh525.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

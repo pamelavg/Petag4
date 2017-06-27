@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="nombre_cardView">20sp</dimen>
+    <dimen name="nombre_cardView2">15sp</dimen>
+    <dimen name="alturaImagen">250dp</dimen>
+    <dimen name="elevacion_actinbar">120dp</dimen>
+    <dimen name="alturaImagenGril">40dp</dimen>
+</resources>
